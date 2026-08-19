@@ -45,5 +45,4 @@ while True:
         print(f"{num1} / {num2} = {divide(num1, num2)}")
         break
     else:
-        print("Invalid operation.")
-        operation = input("Enter operation (1/2/3/4): ")
+        operation = input("You entered an invalid operation. Enter operation (1/2/3/4): ")
